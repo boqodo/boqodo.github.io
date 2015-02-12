@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Github博客搭建记录
-description: 
-	notebook: 个人
-	tags:个人, Markdown, Sublime Text
+description: 暂无	
 category: blog
 ---
 
