@@ -32,4 +32,4 @@ git所在的目录不要有空格和中文，跟path配置的git区分开来；
 
 ### permission denied (publickey)
 
-	git push
+打开Git GUI 帮助show ssh key ，generate key 默认生成，复制粘贴到github的ssh key中添加即可
