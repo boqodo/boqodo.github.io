@@ -4,9 +4,9 @@ title:      Git使用记录
 category: blog
 description: 
 ---
-##Git GUI 乱码问题
+## Git GUI 乱码问题
 
-###在Git GUI中查看UTF-8编码的文本文件时
+### 在Git GUI中查看UTF-8编码的文本文件时
 
 乱码类似：锘夸腑鏂囨枃妗￡
 
@@ -20,7 +20,7 @@ description:
 
 可行的方法之一为：将所有文本文件的编码统一为UTF-8或GBK，然后设置相应的gui.encoding参数为utf-8或gbk。
 
-###在sublime text中使用git命令乱码
+### 在sublime text中使用git命令乱码
 
 解决方案：
 
