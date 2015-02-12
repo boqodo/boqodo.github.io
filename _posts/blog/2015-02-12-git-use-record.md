@@ -41,6 +41,7 @@ git所在的目录不要有空格和中文，跟path配置的git区分开来；
 
 直接使用Git GUI 和Git Bash 使用 ` git commit -m '中文' `提交中文到github正常；
 
+直接使用sublime text 的 quick commit 输入中文操作，也不会乱码
 
 > 直接使用git bash 不需要在gitconfig中添加encoding的处理
 
