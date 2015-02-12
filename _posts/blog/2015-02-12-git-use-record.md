@@ -31,5 +31,8 @@ description:
 git所在的目录不要有空格和中文，跟path配置的git区分开来；
 
 ### permission denied (publickey)
+> 该问题是在 Git Bash进行操作生成密钥出现的
 
-打开Git GUI 帮助show ssh key ，generate key 默认生成，复制粘贴到github的ssh key中添加即可
+打开Git GUI 帮助`show ssh key `，`generate key` 默认生成，复制粘贴到github的ssh key中添加即可；（该默认生成到 `./userName/.ssh 目录下`,默认名称为`id_rsa`，可能跟这名称有关系，未具体验证；）
+
+针对原先push使用https的方式,修改为使用ssh，需要到项目的 `.git`文件夹(默认隐藏)下修改config 中的 url 为ssh链接；
