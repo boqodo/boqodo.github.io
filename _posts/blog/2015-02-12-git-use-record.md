@@ -39,7 +39,7 @@ git所在的目录不要有空格和中文，跟path配置的git区分开来；
 
 ### sublimet text git commit 中文乱码
 
-直接使用Git GUI 提交中文到github正常；
+直接使用Git GUI 和Git Bash 使用 ` git commit -m '中文' `提交中文到github正常；
 
 使用文本编辑器打开文件%GIT_HOME%\etc\gitconfig，将下面显示的三个选项的字符集修改成如下：
 
