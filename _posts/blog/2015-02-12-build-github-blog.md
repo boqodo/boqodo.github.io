@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Github博客搭建记录
-description: 暂无	
+description: 记录博客搭建过程
 category: blog
 ---
 
-##github博客搭建
+## github博客搭建
 
 > 官方支持通过jekyll引擎生成静态html文件，生成规则和方式由配置文件控制，应该是生成相应的web静态文件存放到`_site`目录下，通过该目录访问读取html文件；
 > 在github搭建博客的网文到处都是，有点云里雾里没理解具体的情况，准备先搭建起来再说，直接fork别人的博客，修改下相应的配置信息；
@@ -14,10 +14,10 @@ category: blog
 	2. 准备搭建jekyll ruby 环境，查看运行方式
 
 
-###jekyll 环境搭建
+### jekyll 环境搭建
 
 
-####准备环境
+#### 准备环境
 
 [Ruby网站](http://rubyinstaller.org/downloads/)下载[Ruby 2.1.5](http://dl.bintray.com/oneclick/rubyinstaller/ruby-2.1.5-i386-mingw32.7z?direct)
 
@@ -39,7 +39,7 @@ category: blog
 	$ruby dk.rb install
 
 
-####jekyll安装
+#### jekyll安装
 
 安装jekyll执行:
 
@@ -55,11 +55,11 @@ category: blog
 
 通过`localhost:4000`访问查看;
 
-####原理验证
+#### 原理验证
 > 删除原先博客目录下的所有目录，只剩下运行jekyll测试环境时生成的_site目录，并上传到github看能否正常运行
 
 
-###参考资料
+### 参考资料
 
 - [使用Github Pages建独立博客](http://beiyuu.com/github-pages/)
 - [一步步在GitHub上创建博客主页4](http://www.pchou.info/web-build/2013/01/05/build-github-blog-page-04.html)
