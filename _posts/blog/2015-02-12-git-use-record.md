@@ -43,7 +43,3 @@ git所在的目录不要有空格和中文，跟path配置的git区分开来；
 
 	[gui]
      	encoding = utf-8
-	[i18n]
-	     commitencoding = gbk
-	[svn]
-	     pathnameencoding = gbk
