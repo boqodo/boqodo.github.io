@@ -6,6 +6,6 @@ paginate: 8
 permalink: /:title
 
 title: boqodo
-url: http://boqodo.com
+url: http://boqodo.github.io/
 feed: /atom.xml
-author_info: <a href="http://boqodo.com/">BOQODO</a>
+author_info: <a href="http://boqodo.github.io/">boqodo</a>
