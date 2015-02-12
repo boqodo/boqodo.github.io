@@ -43,3 +43,7 @@ git所在的目录不要有空格和中文，跟path配置的git区分开来；
 
 	[gui]
      	encoding = utf-8
+
+## 参考链接
+
+* [Git跨平台中文乱码临时解决方案](http://blog.csdn.net/snowdream86/article/details/6891319);
