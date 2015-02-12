@@ -49,7 +49,8 @@ git所在的目录不要有空格和中文，跟path配置的git区分开来；
 ### Git Bask ls不能显示中文目录 
 
 解决办法：在git的安装目录下，D:\Git\etc\git-completion.bash中增加一行： 
-alias ls='ls --show-control-chars --color=auto'
+
+	alias ls='ls --show-control-chars --color=auto'
 
 
 ## 参考链接
