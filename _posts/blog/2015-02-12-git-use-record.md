@@ -46,6 +46,7 @@ git所在的目录不要有空格和中文，跟path配置的git区分开来；
 > 直接使用git bash 不需要在gitconfig中添加encoding的处理
 
 
+
 使用文本编辑器打开文件%GIT_HOME%\etc\gitconfig，将下面显示的三个选项的字符集修改成如下：
 
 	[gui]
