@@ -46,4 +46,5 @@ git所在的目录不要有空格和中文，跟path配置的git区分开来；
 
 ## 参考链接
 
-* [Git跨平台中文乱码临时解决方案](http://blog.csdn.net/snowdream86/article/details/6891319);
+* [Git跨平台中文乱码临时解决方案](http://blog.csdn.net/snowdream86/article/details/6891319)
+* [彻底解决Git中文乱码问题](http://www.diguage.com/archives/26.html)
