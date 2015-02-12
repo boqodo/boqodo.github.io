@@ -2,7 +2,7 @@
 layout:     post
 title:      Git使用记录
 category: blog
-description: 
+description: 使用git到github的问题记录
 ---
 ## Git GUI 乱码问题
 
@@ -44,6 +44,7 @@ git所在的目录不要有空格和中文，跟path配置的git区分开来；
 直接使用sublime text 的 quick commit 输入中文操作，也不会乱码
 
 > 直接使用git bash 不需要在gitconfig中添加encoding的处理
+
 
 使用文本编辑器打开文件%GIT_HOME%\etc\gitconfig，将下面显示的三个选项的字符集修改成如下：
 
