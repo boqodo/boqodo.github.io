@@ -60,6 +60,7 @@ TypeError: stringToWrite must be a string
 ```
 该问题同样由插件代码引起，修改`SublimeREPL\config\NodeJS\repl.js` 中的第6行代码[参考3]；
 ``prompt:    null, //'> '` ---> `prompt:    '> ', //null,`
+
 ```javascript
 var rep = repl.start({
         prompt:    '> ', //null,
