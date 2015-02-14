@@ -1,10 +1,10 @@
 ---
-layout:     post
-title:      Git使用记录
-category: blog
-description: 使用git到github的问题记录
-notebook: 个人
-tags:个人, Markdown, Sublime Text
+layout:     	post
+title:      	Git使用记录
+category: 		blog
+description: 	使用git到github的问题记录
+notebook: 		个人
+tags: 			个人, Markdown, Sublime Text
 ---
 ## Git GUI 乱码问题
 
