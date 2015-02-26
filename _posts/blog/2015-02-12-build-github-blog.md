@@ -55,6 +55,20 @@ category: blog
 
 通过`localhost:4000`访问查看;
 
+### Everno集成
+
+> 原本记录都存放在印象笔记，使用sublime Evernote插件，可以方便的发送保存；为了满足自身需求，修改了一头部的yml配置，添加notebook和tags即可，注意冒号（：）后需要有空格
+
+	---
+	layout: 		post
+	title: 			Github博客搭建记录
+	description: 	记录博客搭建过程
+	category: 		blog
+	notebook: 		个人
+	tags: 			个人, Markdown, Sublime Text
+	---
+	
+
 ### 原理验证
 > 删除原先博客目录下的所有目录，只剩下运行jekyll测试环境时生成的_site目录，并上传到github看能否正常运行;
 > 验证无法正常显示，稍后再确认具体的原理情况；

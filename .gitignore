@@ -1,1 +1,13 @@
+# 过滤文件夹
 _site/
+.idea/
+
+# 排除文件名称以-draft结尾的文件
+*-draft.md
+# 排除以.draft为后缀的文件
+*.draft
+# 排除放在draft文件夹下的文件
+_posts/draft/
+
+# 过滤文件
+jekyllserver.bat
