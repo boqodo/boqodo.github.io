@@ -6,8 +6,8 @@ _site/
 *-draft.md
 # 排除以.draft为后缀的文件
 *.draft
-# 排除放在draft文件夹下的文件
-_posts/draft/
+
+_drafts/
 
 # 过滤文件
 jekyllserver.bat
